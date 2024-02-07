@@ -1,4 +1,26 @@
 /* CSS */
+.container {
+  max-width: 1200px; /* Set your preferred maximum width */
+  margin: 0 auto; /* Center the container */
+}
+
+.overflow-x-hidden {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.position-relative {
+  position: relative;
+}
+
+.position-absolute {
+  position: absolute;
+}
+
+.img-crop {
+  display: inline-block;
+}
 
 .invitation-container {
   text-align: center;
