@@ -1,4 +1,5 @@
 /* CSS */
+/* Additional responsive styles */
 .container {
   max-width: 1200px; /* Set your preferred maximum width */
   margin: 0 auto; /* Center the container */
@@ -6,6 +7,7 @@
 
 .overflow-x-hidden {
   display: flex;
+  flex-direction: row; /* Horizontal by default */
   justify-content: space-around;
   align-items: center;
 }
@@ -20,6 +22,14 @@
 
 .img-crop {
   display: inline-block;
+}
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+  .overflow-x-hidden {
+    flex-direction: column; /* Switch to vertical on smaller screens */
+    text-align: center; /* Center the content */
+  }
 }
 
 .invitation-container {
